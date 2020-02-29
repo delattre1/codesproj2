@@ -42,7 +42,58 @@
 	text-align: center;
 }
 
-.imagem_projeto {
-	height: 300px;
-	width: 300px;
+  .imgpro1 {
+	position: absolute;
+	top:500px;
+	left:500px;
+	height: 150px;
+	width: 250px;
+	text-align: end;
+  	
+}
+.imgpro2 {
+	
+	position: absolute;
+	top: 700px;
+	left: 500px;
+	height: 150px;
+	width: 250px;
+	text-align: end;
+
+  	
+}
+.imgpro3 {
+	position: absolute;
+	top:900px;
+	left:500px;
+	height: 150px;
+	width: 250px;
+	text-align: end;
+	vertical-align: top;
+  	
+}
+
+.tx1 {
+	position: absolute;
+	top:560px;
+	left:800px;	
+}
+.tx2 {
+	position: absolute;
+	top:760px;
+	left:800px;	
+}
+.tx3 {
+	position: absolute;
+	top:960px;
+	left:800px;	
+}
+
+.header1 {
+	border: 2px solid black;
+	background-color: skyblue;
+	height: 30px;
+	text-align: center;
+	padding: 1px;
+	margin: 20px;
 }
