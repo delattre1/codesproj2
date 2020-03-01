@@ -143,7 +143,7 @@
 	left: 600px;
 	top: -300px;
 
-	width: 500px;
+	width: 400px;
 	height:300px;
 
 }
@@ -168,16 +168,28 @@
 }
 
 .nav3{
-
 	position: absolute;
 	display: block;
 	left: 200px;
 	top: 5px;
 
 }
+
+.imagem-equipe{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.title-equipe{
+	position: absolute;
+	left: 40px;
+	top: 10px;
+}
+
 .nav-item{
 	position: absolute;
-	left: 240px;
+	left: 35px;
 	top: 30px;
 
 	width: 100px;
@@ -190,7 +202,7 @@
 
 .nav-item2{
 	position: absolute;
-	left: 450px;
+	left: 200px;
 	top: 30px;
 
 	width: 100px;
@@ -202,10 +214,16 @@
 
 .dic{
 	position: absolute;
-	left: 200px;
+	left: 195px;
 	top: 150px;
 
 	width: 300px;
+}
+
+.imagem-local{
+	position: absolute;
+	left: 0px;
+	top: 0px;
 }
 
 .title-local{
