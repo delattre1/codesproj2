@@ -161,6 +161,7 @@
 	left: 30px;
 	top: 25px;
 	list-style-type: disc;
+	line-height: 20px;
 
 	height: 280px;
 
@@ -176,7 +177,7 @@
 }
 .nav-item{
 	position: absolute;
-	left: 210px;
+	left: 240px;
 	top: 30px;
 
 	width: 100px;
