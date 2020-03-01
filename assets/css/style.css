@@ -104,3 +104,54 @@
 .bg{
 	background-color: lightcyan;
 }
+
+.nav{
+	position: relative;
+	top: 20px;
+	left:-250px;
+
+}
+
+.nav-item{
+
+	position: relative;
+	top:-400px;
+	left: 1100px;
+
+}
+
+.nav2{
+
+	position: relative;
+	right: -1200px;
+	top: -452px;
+
+}
+
+.nav3{
+
+	position: relative;
+	right: -1160px;
+	top:-400px;
+
+}
+
+.mov{
+
+	position: relative;
+	right: -850px;
+	top: -650px;
+
+
+}
+
+
+.dic{
+
+	position: relative;
+	right: -1100px;
+	top: -400px;
+
+
+}
+
