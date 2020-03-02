@@ -7,18 +7,18 @@
 }
 
 .img {
-  	display: block;
-  	margin-top: 20px;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 50%;
+ display: block;
+ margin-top: 20px;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
 }
 
 .descricao {
-  	display: block;
-  	margin-top: 20px;
-  	margin-left: 200px;
-  	margin-right: 200px;
+ display: block;
+ margin-top: 20px;
+ margin-left: 200px;
+ margin-right: 200px;
 }
 
 .opcoes {
@@ -50,10 +50,9 @@
 	width: 250px;
 	text-align: end;
 	margin: 10px;
-  	
+
 }
 .imgpro2 {
-	
 	position: absolute;
 	top: 700px;
 	left: 500px;
@@ -62,7 +61,7 @@
 	text-align: end;
 	margin: 10px;
 
-  	
+
 }
 .imgpro3 {
 	position: absolute;
@@ -73,7 +72,7 @@
 	text-align: end;
 	vertical-align: top;
 	margin: 10px;
-  	
+
 }
 
 .tx1 {
@@ -135,7 +134,7 @@
 	text-align: end;
 	margin: 10px;
 
-  	
+
 }
 
 .lateral{
