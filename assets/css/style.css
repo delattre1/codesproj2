@@ -104,8 +104,16 @@
 	background-color: lightcyan;
 }
 
+.bgi {
+	background-color: rgba(253, 253, 143, 0.979)
+}
+
+.bgp {
+	background-color: rgba(241, 136, 136, 0.685)
+}
+
 .title{
-	margin-left: 80px;
+	margin-left: 40px;
 	margin-top: 50px;
 }
 .text{
@@ -237,4 +245,14 @@
 	left: 20px;
 	top: -250px;
 
+}
+
+.bord {
+	border: 3px solid black;
+	padding: 2px;
+}
+
+.margem {
+	margin-left: 20px;
+	margin-bottom: 10px;
 }
