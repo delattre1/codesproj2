@@ -15,10 +15,10 @@
 }
 
 .descricao {
- display: block;
- margin-top: 20px;
- margin-left: 200px;
- margin-right: 200px;
+
+	text-align: center;
+	max-width: 70%;
+	margin: 1px auto;
 }
 
 .opcoes {
@@ -42,36 +42,20 @@
 	text-align: center;
 }
 
+.container {
+	margin: 0 auto;
+}
+
 .imgpro1 {
-	position: absolute;
-	top:500px;
-	left:500px;
-	height: 150px;
-	width: 250px;
-	text-align: end;
-	margin: 10px;
+	max-width: 20%
 
 }
 .imgpro2 {
-	position: absolute;
-	top: 700px;
-	left: 500px;
-	height: 150px;
-	width: 250px;
-	text-align: end;
-	margin: 10px;
-
+	max-width: 20%;
 
 }
 .imgpro3 {
-	position: absolute;
-	top:900px;
-	left:500px;
-	height: 150px;
-	width: 250px;
-	text-align: end;
-	vertical-align: top;
-	margin: 10px;
+	max-width: 20%;
 
 }
 
@@ -92,12 +76,11 @@
 }
 
 .header1 {
-	border: 2px solid black;
-	background-color: skyblue;
-	height: 30px;
+	border: 0.2rem solid black;
+	margin: 0.5rem auto;
 	text-align: center;
-	padding: 1px;
-	margin: 20px;
+	background-color: skyblue;
+
 }
 
 .bg{
