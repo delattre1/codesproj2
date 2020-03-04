@@ -4,13 +4,13 @@
 
 .main-title-nav {
 	text-align: center;
+	margin: 0 auto;
 }
 
 .img {
  display: block;
- margin-top: 20px;
- margin-left: auto;
- margin-right: auto;
+ margin: 0.1rem auto;
+
  width: 50%;
 }
 
