@@ -46,6 +46,9 @@
 	font-family: 'Roboto Slab', serif;
 }
 
+/* css index rapagao vai até aqui  */
+
+/* começo css categoria dani/ timas  */
 .materia {
 	text-align: center;
 }
@@ -119,6 +122,11 @@
 .bgp {
 	background-color: rgba(241, 136, 136, 0.685);
 }
+
+
+/* css categoria daniel timas vai até aqui  */
+
+/* começo  css projeto gi / barb */
 
 .title{
 	margin-left: 40px;
