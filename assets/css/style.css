@@ -10,7 +10,6 @@
 .img {
  display: block;
  margin: 0.1rem auto;
-
  width: 50%;
 }
 
@@ -42,37 +41,52 @@
 	text-align: center;
 }
 
+
+.imgp{
+	max-width: 50%;
+}
 .container {
 	margin: 0 auto;
+	background-color: black;
+	padding: 1rem;
+}
+.cont2 {
+	background-color: chartreuse;
 }
 
-.imgpro1 {
-	max-width: 20%
-
+.contimg{
+	text-align: center;
 }
-.imgpro2 {
-	max-width: 20%;
 
-}
-.imgpro3 {
-	max-width: 20%;
-
-}
 
 .tx1 {
-	position: absolute;
-	top:560px;
-	left:800px;	
+
 }
 .tx2 {
-	position: absolute;
-	top:760px;
-	left:800px;	
+
 }
 .tx3 {
-	position: absolute;
-	top:960px;
-	left:800px;	
+
+}
+.child1, .child2, .child3{
+
+	
+}
+.child1{
+	background-color: blueviolet;
+	display: grid;
+	grid-template-columns: 50% 50%;
+
+}
+.child2{
+	background-color: aqua;	
+}
+.child3{
+	background-color: brown;
+
+}
+.chimg1, .chimg2, .chimg3 {
+	width: 30%;
 }
 
 .header1 {
