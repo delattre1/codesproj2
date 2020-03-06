@@ -42,6 +42,25 @@
 /* css index rapagao vai até aqui  */
 
 /* começo css categoria dani/ timas  */
+
+
+.sections-menu {
+	display: flex;
+	width: 100%;
+	align-items: flex-start;
+}
+
+.sections-menu-item {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row;
+
+}
+
+.sections-menu-item-image {
+	
+}
+
 .materia {
 	text-align: center;
 }
@@ -118,6 +137,7 @@
 
 
 /* css categoria daniel timas vai até aqui  */
+
 
 /* começo  css projeto gi / barb */
 
