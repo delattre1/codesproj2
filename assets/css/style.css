@@ -5,6 +5,9 @@
 .main-title-nav {
 	text-align: center;
 	margin: 0 auto;
+	font-family: 'Roboto Slab', serif;
+	font-stretch: ultra-expanded;
+	font-size: 2rem
 }
 
 .img {
@@ -20,14 +23,17 @@
  margin-top: 1.5rem;
  margin-left: 8rem;
  margin-right: 8rem;
+ font-family: 'Roboto', sans-serif;
+ font-size: 1.25rem;
 }
 
 .opcoes {
 	background-color: gold;
 	text-align: center;
 	display: inline-block;
-	width: 9rem;
+	width: 10rem;
 	height: 2rem;
+	font-family: 'Roboto', sans-serif;
 }
 .meio {
 	margin-top: 2rem;
@@ -37,6 +43,7 @@
 .nome {
 	margin-top: 4rem;
 	text-align: center;
+	font-family: 'Roboto Slab', serif;
 }
 
 /* css index rapagao vai até aqui  */
