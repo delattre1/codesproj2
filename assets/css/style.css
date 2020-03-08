@@ -4,7 +4,6 @@
 
 .main-title-nav {
 	text-align: center;
-	margin: 0 auto;
 	font-family: 'Roboto Slab', serif;
 	font-stretch: ultra-expanded;
 	font-size: 2rem
@@ -15,14 +14,12 @@
   display: inline-block;
   width: 10rem;
   font-family: 'Roboto', sans-serif;
-  margin-top: 0.25rem;
   vertical-align: middle;
   padding: 0.5rem;
 
 }
 .nav-cat-sup {
   text-align: center;
-  ;
 }
 
 .img {
@@ -134,150 +131,3 @@
 /* css categoria daniel timas vai até aqui  */
 
 
-/* começo  css projeto gi / barb */
-
-.title{
-	margin-left: 40px;
-	margin-top: 50px;
-}
-
-.text{
-	position: absolute;
-	display: inline;
-	top: 30px;
-	margin-top: 5px;
-	
-}
-
-.nav{
-	position: relative;
-	top: 10px;
-	left:10px;
-
-	height: 350px;
-	width: 100px;
-}
-
-.img-proj {
-	position: absolute;
-	top: 5px;
-	left: 20px;
-	height: 350px;
-	width: 500px;
-	text-align: end;
-	margin: 10px;
-
-
-}
-
-.lateral{
-	position: relative;
-	left: 600px;
-	top: -300px;
-
-	width: 400px;
-	height:300px;
-
-}
-
-.mov{
-
-	position: absolute;
-	left: 10px;
-	top: 5px;
-
-}
-
-.lista_materiais{
-	position: absolute;
-	left: 30px;
-	top: 25px;
-	list-style-type: disc;
-	line-height: 20px;
-
-	height: 280px;
-
-}
-
-.nav3{
-	position: absolute;
-	display: block;
-	left: 200px;
-	top: 5px;
-
-}
-
-.imagem-equipe{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-}
-
-.title-equipe{
-	position: absolute;
-	left: 40px;
-	top: 5px;
-}
-
-.nav-item{
-	position: absolute;
-	left: 35px;
-	top: 30px;
-
-	width: 100px;
-	height: 50px;
-	list-style-type: disc;
-	line-height: 30px;
-
-
-}
-
-.nav-item2{
-	position: absolute;
-	left: 200px;
-	top: 30px;
-
-	width: 100px;
-	height: 50px;
-	list-style-type: disc;
-	line-height: 30px;
-
-}
-
-.dic{
-	position: absolute;
-	left: 195px;
-	top: 150px;
-
-	width: 300px;
-}
-
-.imagem-local{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-}
-
-.title-local{
-	position: absolute;
-	left: 35px;
-	top: 5px;
-}
-
-.descricao-proj{
-	position: relative;
-	display: block;
-	left: 20px;
-	top: -250px;
-
-}
-
-.bord {
-	border: 3px solid black;
-	padding: 2px;
-}
-
-.margem {
-	margin-left: 20px;
-	margin-bottom: 10px;
-}
