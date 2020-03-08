@@ -1,0 +1,84 @@
+.header {
+	border-bottom: solid;
+}
+
+.main-title-nav {
+    text-align: center;
+    padding: 1rem;
+}
+
+.main-title{
+	margin-left: 3.5rem;
+	margin-top: 2rem;
+}
+
+.title{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.blocao{
+    background-color: tomato;
+    display: flex;
+    justify-content: right;
+    margin-left: 1.5rem;
+    margin-right: 2.5rem;
+    max-height: 60%;
+}
+
+.lateral{
+    display: flex;
+    flex-direction: row;
+    background-color: hotpink;
+    align-items: stretch;
+    align-content: center;
+    margin: 1rem;
+}
+
+.img-proj{
+    max-width: 40%;
+}
+
+.materiais{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.lista_materiais{
+    list-style-type: disc;
+
+}
+
+
+.lateral-cantodir{
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 4rem;
+
+}
+
+.title-image{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.equipe-nomes{
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-bottom: 4rem;
+
+
+}
+
+.descricao-proj{
+    background-color: turquoise;
+    margin-left: 2.5rem;
+}
