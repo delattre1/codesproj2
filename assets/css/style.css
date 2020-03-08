@@ -1,16 +1,17 @@
 .header {
-	border-bottom: solid;
+  border-bottom: solid;
 }
 
 .main-title-nav {
-	text-align: center;
-	font-family: 'Roboto Slab', serif;
-	font-stretch: ultra-expanded;
-	font-size: 2rem
+  text-align: center;
+  margin-top: 1rem;
+  font-family: 'Roboto Slab', serif;
+  font-stretch: ultra-expanded;
+  font-size: 1.5rem;
 }
 
 .nav-cat-opcoes {
-  background-color: rgb(255, 208, 210);
+  background-color: rgb(165, 88, 120);
   display: inline-block;
   width: 10rem;
   font-family: 'Roboto', sans-serif;
@@ -22,6 +23,12 @@
 .nav-cat-sup {
   text-align: center;
 }
+
+.nav-link{
+  color: white;
+}
+
+
 
 .img {
  display: flex;
@@ -41,22 +48,22 @@
 }
 
 .opcoes {
-	background-color: gold;
-	text-align: center;
-	display: inline-block;
-	width: 10rem;
-	height: 2rem;
-	font-family: 'Roboto', sans-serif;
+  background-color: gold;
+  text-align: center;
+  display: inline-block;
+  width: 10rem;
+  height: 2rem;
+  font-family: 'Roboto', sans-serif;
 }
 .meio {
-	margin-top: 2rem;
-	text-align: center;
+  margin-top: 2rem;
+  text-align: center;
 }
 
 .nome {
-	margin-top: 4rem;
-	text-align: center;
-	font-family: 'Roboto Slab', serif;
+  margin-top: 4rem;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
 }
 
 /* css index rapagao vai até aqui  */
@@ -65,67 +72,67 @@
 
 
 .sections-menu {
-	display: flex;
-	margin: 0 auto;
-	width: 55%;
-	background-color: rgba(88, 210, 216, 0.68);
-	flex-wrap: wrap;
+  display: flex;
+  margin: 0 auto;
+  width: 55%;
+  background-color: rgba(88, 210, 216, 0.68);
+  flex-wrap: wrap;
 }
 
 .sections-menu-item {
-	display: flex;
-	margin: 0 auto;
-	padding: 1rem;
-	align-items: flex-end;
-	flex-direction: row;
+  display: flex;
+  margin: 0 auto;
+  padding: 1rem;
+  align-items: flex-end;
+  flex-direction: row;
 }
 
 .sections-menu-item-image {
-	width: 13rem;
-	height: 10rem;
+  width: 13rem;
+  height: 10rem;
 
 }
 .sections-menu-item-text-title {
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	width: 10rem;
-	height: 10rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 10rem;
+  height: 10rem;
 }
 
 .sections-menu-item-text-title{
-	/* padding-bottom: 0.5rem;
-	padding-top: 2rem;
-	background-color: darkgoldenrod; */
+  /* padding-bottom: 0.5rem;
+  padding-top: 2rem;
+  background-color: darkgoldenrod; */
 }
 
 .imgp{
-	max-width: 50%;
-	padding: 1rem;
+  max-width: 50%;
+  padding: 1rem;
 }
 
 .contimg{
-	text-align: center;
+  text-align: center;
 }
 
 .header1 {
-	border: 0.2rem solid black;
-	margin: 0 auto;
-	text-align: center;
-	background-color: rgba(88, 210, 216, 0.68);
+  border: 0.2rem solid black;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(88, 210, 216, 0.68);
 }
 
 .bg{
-	background-color: rgba(112, 128, 144, 0.544);
+  background-color: rgba(112, 128, 144, 0.544);
 }
 
 .bgi {
-	background-color: rgba(253, 253, 143, 0.979);
-	justify-content: center;
+  background-color: rgba(253, 253, 143, 0.979);
+  justify-content: center;
 }
 
 .bgp {
-	background-color: rgba(241, 136, 136, 0.685);
+  background-color: rgba(241, 136, 136, 0.685);
 }
 
 
