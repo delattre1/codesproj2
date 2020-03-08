@@ -10,6 +10,21 @@
 	font-size: 2rem
 }
 
+.nav-cat-opcoes {
+  background-color: rgb(255, 208, 210);
+  display: inline-block;
+  width: 10rem;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0.25rem;
+  vertical-align: middle;
+  padding: 0.5rem;
+
+}
+.nav-cat-sup {
+  text-align: center;
+  ;
+}
+
 .img {
  display: flex;
  margin-top: 2rem;
