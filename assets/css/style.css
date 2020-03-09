@@ -98,7 +98,7 @@
 /* começo css categoria dani/ timas  */
 
 
-.sections-menu {
+.container {
   padding: 1rem;
   display: flex;
   margin: 0 auto;
@@ -107,30 +107,24 @@
   flex-wrap: wrap;
 }
 
-.sections-menu-item {
+.item-list {
   display: flex;
   margin: 0 auto;
   align-items: flex-end;
   flex-direction: row;
 }
 
-.sections-menu-item-image {
+.image-list {
   max-width: 45%;
   padding-right: 2rem;
   padding-bottom: 1rem;
 
 }
-.sections-menu-item-text-title {
+.title-list {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   height: 100%;
-}
-
-.sections-menu-item-text-title{
-  /* padding-bottom: 0.5rem;
-  padding-top: 2rem;
-  background-color: darkgoldenrod; */
 }
 
 .imgp{
