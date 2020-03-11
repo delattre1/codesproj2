@@ -105,9 +105,6 @@
   width: 55%;
   background-color: rgba(88, 210, 216, 0.68);
   flex-wrap: wrap;
-  align-items: flex-start;
-  
-
 }
 
 .item-list {
@@ -115,8 +112,6 @@
   margin: 0 auto;
   align-items: flex-end;
   flex-direction: row;
-  height: 10rem;
-
 }
 
 .image-list {
@@ -162,5 +157,3 @@
 
 
 /* css categoria daniel timas vai até aqui  */
-
-
