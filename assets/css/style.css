@@ -1,12 +1,62 @@
+/* colors
+título nav: ff6f3c
+caixa nav: 112d4e
+text caixa nav: ff6f3c
+background nav: 155263
+
+background clean: f9f7f7
+título: 112d4e
+subtítulo: 112d4e
+text: 303841
+*/
+
+.azul-escuro{
+ background-color: #155263;
+}
+
+.azul-escurotexto{
+  color: #155263;
+}
+
+.azul-maisescuro{
+  background-color: #112d4e;
+}
+
+.azul-maisescurotexto{
+  color: #112d4e;
+}
+
+.cinza{
+  color: #303841;
+}
+
+.laranja{
+  background-color:#ff5722;
+}
+
+.laranjatexto{
+  color: #ff5722;
+}
+
+.gelo{
+  background-color: #f9f7f7;
+}
+
+.gelo-texto{
+  color: #f9f7f7;
+}
+
 .header {
   border-bottom: solid;
-}
+  border-color: #ff5722;
+  }
+  
 
 .main-title-nav {
   text-align: center;
-  margin-top: 1rem;
   font-family: 'Martel', serif;
   font-size: 1.5rem;
+  padding: 1rem;
 }
 
 .main-title{
@@ -36,14 +86,11 @@
 
 
 .nav-cat-opcoes {
-  background-color: rgb(165, 88, 120);
   display: inline-block;
   width: 10rem;
   font-family: 'Martel', serif;
   vertical-align: middle;
   padding: 0.5rem;
-  margin-top: 0.5rem;
-
 }
 .nav-cat-sup {
   text-align: center;
@@ -52,7 +99,6 @@
 .nav-link{
   color: white;
 }
-
 
 
 .img {
@@ -73,7 +119,6 @@
 }
 
 .opcoes {
-  background-color: gold;
   text-align: center;
   display: inline-block;
   vertical-align: middle;
@@ -83,7 +128,7 @@
 
 }
 .meio {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   text-align: center;
 }
 
@@ -103,7 +148,6 @@
   display: flex;
   margin: 0 auto;
   width: 55%;
-  background-color: rgba(88, 210, 216, 0.68);
   flex-wrap: wrap;
 }
 
@@ -125,6 +169,7 @@
   align-items: flex-start;
   justify-content: center;
   height: 100%;
+  font-size: 1.25rem;
 }
 
 .imgp{
@@ -136,24 +181,15 @@
 }
 
 .header1 {
-  border: 0.2rem solid black;
+  border: 0.2rem solid;
+  border-color: #ff5722;
   margin: 0 auto;
+  padding: 0.25rem;
   text-align: center;
-  background-color: rgba(88, 210, 216, 0.68);
-}
-
-.bg{
-  background-color: rgba(112, 128, 144, 0.544);
 }
 
 .bgi {
-  background-color: rgba(253, 253, 143, 0.979);
   justify-content: center;
 }
-
-.bgp {
-  background-color: rgba(241, 136, 136, 0.685);
-}
-
 
 /* css categoria daniel timas vai até aqui  */

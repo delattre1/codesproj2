@@ -1,23 +1,23 @@
 .blocao{
-    background-color: rgb(243, 195, 187);
     display: flex;
     justify-content: right;
+    flex-direction: row;
     margin-left: 1.5rem;
     margin-right: 2.5rem;
+    max-width: 100%;
     max-height: 60%;
 }
 
 .lateral{
     display: flex;
     flex-direction: row;
-    background-color: rgb(250, 182, 216);
     align-items: stretch;
     align-content: center;
     margin: 1rem;
 }
 
 .img-proj{
-    max-width: 40%;
+    max-width: 40rem;
 }
 
 .materiais{
@@ -34,7 +34,6 @@
 
 
 .lateral-cantodir{
-    background-color: rgb(233, 178, 233);
     display: flex;
     flex-direction: column;
     padding-left: 2rem;
@@ -49,7 +48,6 @@
 }
 
 .equipe-nomes{
-    background-color: rgb(252, 209, 239);
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -59,6 +57,5 @@
 
 
 .descricao-proj{
-    background-color: rgb(240, 195, 212);
     margin-left: 2.5rem;
 }
