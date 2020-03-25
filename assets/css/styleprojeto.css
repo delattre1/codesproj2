@@ -28,6 +28,15 @@
       flex-direction: row;
       max-height: 10%;
   }
+
+  .Canto_esquerdo{
+    display: flex;
+    flex-direction:column;
+    padding-left: 2rem;
+    padding-right: 4rem;
+    max-height: 10%;
+
+  }
   
   .materiais{
     display: flex;
@@ -71,14 +80,23 @@
       height: auto;
   }
   
-
+.descricao-proj{
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    max-height: 10%;
+}
   .img-local{
       width: 1.5rem;
       height: 1.75rem;
   }
-  
-  .descricao-proj{
-    margin-left: 2.5rem;
+
+  }
+
+  .Bigblocao{
+    display: flex;
+    flex-direction:column;
   }
 
 
