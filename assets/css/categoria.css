@@ -50,5 +50,20 @@
     justify-content: center;
   }
   
+  @media (max-width: 68rem) {
+    .main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .description {
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  
+    .description-title {
+      text-align: center;
+    }
+  }
   
   /* css categoria daniel timas vai até aqui  */
