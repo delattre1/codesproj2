@@ -139,3 +139,39 @@ text: 303841
 
 /* css index rapagao vai até aqui  */
 
+@media (max-width: 400px){  
+  .header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .main-title{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 0rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  }
+
+  .text{
+    width: 90%;
+  }
+
+
+
+   .nav-cat-opcoes {
+  display: grid;
+  grid-column: initial ;
+  font-family: 'Martel', serif;
+  padding: 0.5rem;
+  }
+
+  .nav-cat-sup {
+  text-align: center;
+  }
+
+  
+}
