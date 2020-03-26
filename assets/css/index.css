@@ -1,0 +1,62 @@
+@media (max-width: 500px) {
+	.text{
+	  margin-top: 0.5rem;
+	  margin-bottom: 0.5rem;
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 1rem;
+	}
+	.descricao {
+	  display: flex;
+	  margin-top: 1.5rem;
+	  margin-left: 15%;
+	  margin-right: 15%;
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 1.25rem;
+	  text-align: justify;
+	}
+	.meio {
+	  margin-top: 1.5rem;
+	  text-align: center;
+	}
+	.opcoes {
+	  text-align: center;
+	  display: flex;
+	  flex-direction: column;
+	  margin-left: 15%;
+	  margin-right: 15%;
+	  font-family: 'Open Sans', sans-serif;
+	  width: 68%;
+	  height: 2rem;
+	}
+}
+@media (min-width: 401px, max-width: 500px) {
+	.text{
+	  margin-top: 0.5rem;
+	  margin-bottom: 0.5rem;
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 1rem;
+	}
+	.descricao {
+	  display: flex;
+	  margin-top: 1.5rem;
+	  margin-left: 2rem;
+	  margin-right: 2rem;
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 1.25rem;
+	  text-align: justify;
+	}
+	.meio {
+	  margin-top: 1.5rem;
+	  text-align: center;
+	}
+	.opcoes {
+	  text-align: center;
+	  display: flex;
+	  flex-direction: column;
+	  margin-left: 4rem;
+	  margin-right: 4rem;
+	  font-family: 'Open Sans', sans-serif;
+	  width: 18rem;
+	  height: 2rem;
+	}
+}
