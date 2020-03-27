@@ -141,19 +141,19 @@ text: 303841
 
 @media (max-width: 400px){  
   .header {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
 
   .main-title{
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  margin-left: 0rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 0rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .text{
@@ -162,15 +162,15 @@ text: 303841
 
 
 
-   .nav-cat-opcoes {
-  display: grid;
-  grid-column: initial ;
-  font-family: 'Martel', serif;
-  padding: 0.5rem;
+  .nav-cat-opcoes {
+    display: grid;
+    grid-column: initial ;
+    font-family: 'Martel', serif;
+    padding: 0.5rem;
   }
 
   .nav-cat-sup {
-  text-align: center;
+    text-align: center;
   }
 
   
