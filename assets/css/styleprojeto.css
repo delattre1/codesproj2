@@ -59,10 +59,16 @@
 
 .equipe-nomes{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: nowrap;
-  margin-bottom: 4rem;
-  max-width: 20rem;
+  max-width: 100%;
+  margin-bottom: 5%;
+}
+
+.equipe-membros-1 .equipe-membros-2{
+  display: flex;
+  flex-direction: column;
+
 }
 
 .img-equipe{
@@ -70,6 +76,23 @@
   height: auto;
 }
 
+.img-nome{
+  display: flex;
+  flex-direction: row;
+  vertical-align: center;
+  justify-items: center;
+  margin-bottom: 3%;
+}
+
+.img-person{
+  max-width:35%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.nome{
+  margin-left: 1rem;
+}
 
 .img-local{
   width: 1.5rem;
@@ -111,8 +134,9 @@
   .title-materiais{
     margin-left: 0;
   }
+
   .equipe-nomes{
-    margin-bottom: 0;
+    margin-bottom: 5%;
   }
 
   .descricao-proj{
