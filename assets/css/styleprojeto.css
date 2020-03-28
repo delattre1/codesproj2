@@ -65,6 +65,7 @@
 .equipe-nomes{
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
   width: 100%;
   margin-bottom: 5%;
 }
