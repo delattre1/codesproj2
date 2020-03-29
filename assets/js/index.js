@@ -3,13 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   db.download('/', function(data) {
     context = data
-
-    for (let key in data) {
-      console.log(data[key])
-    }
+    console.log(data)
     coDesReplace('.meio', context)
     // coDesReplace('.section-list', context)
-
   })
 })
 

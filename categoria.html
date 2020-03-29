@@ -20,7 +20,7 @@
     <nav>
       <ul class="nav-cat-sup">
         {{#each portfolio}}
-          <li class = "nav-cat-opcoes text laranja"><a href="categoria.html" class="nav-link">{{@key}}</a></li>
+          <li class = "nav-cat-opcoes text laranja"><a href="categoria.html?key={{@key}}" class="nav-link">{{@key}}</a></li>
         {{/each}}
       </ul>
     </nav>
@@ -42,33 +42,16 @@
     </nav>
 
     <ul class="container">
-      <li class="item-list azul-maisescuro"> 
-        <img src="assets/img/database.jpeg" alt="banco de dados" class="image-list">
-        <div class="title-list">
-          <p>
-            <a href="projeto.html" class="title-list gelo-texto">Database</a>
-          </p>
-        </div>
-      </li> 
-
-      <li class="item-list azul-maisescuro"> 
-        <img src="assets/img/metereologia.jpg" alt="imagem de um termometro" class="image-list">
-        <div class="title-list">
-          <p>
-            <a href="projeto.html" class="title-list gelo-texto">Metereologia</a>
-          </p>
-        </div>
-      </li> 
-
-      <li class="item-list azul-maisescuro"> 
-        <img src="assets/img/games.jpg" alt="imagem de controles para jogos" class="image-list">
-        <div class="title-list ">
-          <p>
-            <a href="projeto.html" class="gelo-texto">Games</a>
-          </p>
-        </div>
-      </li> 
-
+        {{#each projetos}}
+        <li class="item-list azul-maisescuro"> 
+          <img src="assets/img/database.jpeg" alt="banco de dados" class="image-list">
+          <div class="title-list">
+            <p>
+              <a class="title-list gelo-texto" href="projeto.html?key={{@key}}" >{{this.titulo}}</a>
+            </p>
+          </div>
+        </li> 
+        {{/each}}
     </ul>  
   </main>
 </body>

@@ -22,31 +22,35 @@
     <nav>
       <ul class="nav-cat-sup">
         {{#each portfolio}}
-          <li class = "nav-cat-opcoes text laranja"><a href="categoria.html" class="nav-link">{{@key}}</a></li>
+          <li class = "nav-cat-opcoes text laranja"><a href="categoria.html?key={{@key}}" class="nav-link">{{@key}}</a></li>
         {{/each}}
       </ul>
     </nav>
   </header>
 
-  <main>  
-    <h1 class="main-title laranjatexto">
-      Projeto Final de Co-Design de Aplicativos
-    </h1>
+  <main class="Qualquer">
+    {{#each projetos}}  
+    <a class="main-title laranjatexto">
+      {{this.titulo}}
+    </a>
+    {{/each}}
 
     <div class="blocao">
       <div class="lateral">
         <img src="assets/img/projeto.jpeg" alt="imagem dizendo \" class = "img-proj" >
         <div class="teste">
+
           <div class = "materiais">   
             <h2 class="title-materiais title azul-maisescurotexto">
               Materiais
             </h2>
-            <ul class="lista_materiais"> 
-              <li class="text azul-maisescurotexto">firebase</li> 
-              <li class="text azul-maisescurotexto">notebook</li> 
-              <li class="text azul-maisescurotexto">mysql</li> 
-              <li class="text azul-maisescurotexto">python</li>
-            </ul>
+            <ul class="lista_materiais">
+              {{#each projetos}}
+                {{@key}}
+              <li class="text azul-maisescurotexto">
+                {{this.materias}}
+              </li> 
+              {{/each}}
           </div>
 
           <div class="lateral-cantodir">
