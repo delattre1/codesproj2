@@ -17,13 +17,11 @@
   <header class="header azul-maisescuro">
     <h1 class="main-title-nav gelo-texto">Portfólio de Janiel Soarez</h1>  
 
-    <nav class="nav-cat-sup">
-      <ul>
-        <li class = "nav-cat-opcoes text laranja"><a href="categoria.html" class="nav-link">Matematica</a></li>
-        <li class = "nav-cat-opcoes text laranja"><a href="categoria.html" class="nav-link">FabLab</a></li>
-        <li class = "nav-cat-opcoes text laranja"><a href="categoria.html" class="nav-link">Empreendedorismo</a></li>
-        <li class = "nav-cat-opcoes text laranja"><a href="categoria.html" class="nav-link">Física</a></li>
-        <li class = "nav-cat-opcoes text laranja"><a href="categoria.html" class="nav-link">Programação</a></li>
+    <nav>
+      <ul class="nav-cat-sup">
+        {{#each portfolio}}
+          <li class = "nav-cat-opcoes text laranja"><a href="categoria.html" class="nav-link">{{@key}}</a></li>
+        {{/each}}
       </ul>
     </nav>
   </header>
@@ -71,7 +69,7 @@
         </div>
       </li> 
 
-    </ul>
+    </ul>  
   </main>
 </body>
 </html>
