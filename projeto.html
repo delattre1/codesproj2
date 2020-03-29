@@ -28,29 +28,25 @@
     </nav>
   </header>
 
-  <main class="Qualquer">
-    {{#each projetos}}  
-    <a class="main-title laranjatexto">
-      {{this.titulo}}
-    </a>
-    {{/each}}
+  <main>
+    <h1 class="main-title laranjatexto">
+      Projeto Final de Co-Design de Aplicativos
+    </h1>
 
     <div class="blocao">
       <div class="lateral">
         <img src="assets/img/projeto.jpeg" alt="imagem dizendo \" class = "img-proj" >
         <div class="teste">
-
-          <div class = "materiais">   
+          <div class = "materiais">
             <h2 class="title-materiais title azul-maisescurotexto">
               Materiais
             </h2>
             <ul class="lista_materiais">
-              {{#each projetos}}
-                {{@key}}
-              <li class="text azul-maisescurotexto">
-                {{this.materias}}
-              </li> 
-              {{/each}}
+              <li class="text azul-maisescurotexto">firebase</li>
+              <li class="text azul-maisescurotexto">notebook</li>
+              <li class="text azul-maisescurotexto">mysql</li>
+              <li class="text azul-maisescurotexto">python</li>
+            </ul>
           </div>
 
           <div class="lateral-cantodir">
@@ -76,7 +72,7 @@
                     <img src="assets/img/timao1.jpeg" alt="Guilherme" class="img-person">
                     <p class="text nome azul-maisescurotexto">Guilherme</p>
                   </div>
-                  
+
                 </div>
                 <div class = "equipe-membros-2">
                   <div class="img-nome">
@@ -94,7 +90,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class = "local">
               <div class="title-image">
                 <img src="assets/img/point.png" alt="imagem dizendo \" class = "img-local">
@@ -120,8 +116,19 @@
       </p>
     </div>
 
+    <ul class="container">
+      {{#each projetos}}
+      <li class="item-list azul-maisescuro"> 
+        <div class="title-list">
+          <p>
+            <a class="title-list gelo-texto" href="projeto.html?key={{@key}}" >{{this.titulo}}</a>
+          </p>
+        </div>
+      </li> 
+      {{/each}}
+    </ul> 
+
+
   </main>
-
 </body>
-
 </html>

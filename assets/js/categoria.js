@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // coDesReplace('.menu-list', context)
     // coDesReplace('.call', context['biblioteca'][value])
     context = data['portfolio'][value]
+    console.log(context)
     coDesReplace('.container', context)
   })
 })
