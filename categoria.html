@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>Categoria</title>
+  <title>{{categoria}}</title>
   <link href="assets/css/reset.css" rel="stylesheet">
   <link href="assets/css/categoria.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Martel&display=swap" rel="stylesheet">
@@ -31,8 +31,8 @@
     </p>
 
 
-    <nav class="header1 azul-maisescuro">
-      <p class="title laranjatexto">Programação</p>
+    <nav class="k1 header1 azul-maisescuro">
+      <p class="title laranjatexto">{{categoria}} {{@key}}</p>
     </nav>
 
     <nav  class="descricao">
@@ -47,7 +47,7 @@
           <img src="assets/img/database.jpeg" alt="banco de dados" class="image-list">
           <div class="title-list">
             <p>
-              <a class="title-list gelo-texto" href="projeto.html?key={{@key}}" >{{this.titulo}}</a>
+              <a class="title-list gelo-texto" href="projeto.html?cat={{categoria}}&category={{@key}}" >{{this.titulo}}</a>
             </p>
           </div>
         </li> 

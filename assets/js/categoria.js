@@ -6,11 +6,15 @@ document.addEventListener('DOMContentLoaded', function() {
     
     context = data
     coDesReplace('.nav-cat-sup', context)
-    // coDesReplace('title', context['biblioteca'][value])
-    // coDesReplace('.menu-list', context)
-    // coDesReplace('.call', context['biblioteca'][value])
+
+    console.log(value)
+
     context = data['portfolio'][value]
     console.log(context)
+    coDesReplace('title', context)
+    coDesReplace('.k1', context)
     coDesReplace('.container', context)
   })
 })
+
+

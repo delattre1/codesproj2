@@ -29,8 +29,8 @@
   </header>
 
   <main>
-    <h1 class="main-title laranjatexto">
-      Projeto Final de Co-Design de Aplicativos
+    <h1 class="k1 main-title laranjatexto">
+      {{titulo}}
     </h1>
 
     <div class="blocao">
@@ -41,11 +41,9 @@
             <h2 class="title-materiais title azul-maisescurotexto">
               Materiais
             </h2>
-            <ul class="lista_materiais">
-              <li class="text azul-maisescurotexto">firebase</li>
-              <li class="text azul-maisescurotexto">notebook</li>
-              <li class="text azul-maisescurotexto">mysql</li>
-              <li class="text azul-maisescurotexto">python</li>
+
+            <ul class="k2 lista_materiais">
+              <li class="text azul-maisescurotexto">{{materias}}</li>
             </ul>
           </div>
 
@@ -98,8 +96,8 @@
                   Local
                 </h2>
               </div>
-              <p class="text azul-maisescurotexto">
-                sala de aula, laboratório de computação
+              <p class="k4 text azul-maisescurotexto">
+                {{local}}
               </p>
             </div>
           </div>
@@ -111,24 +109,10 @@
       <h2 class="title-descricao title azul-maisescurotexto">
         Descrição
       </h2>
-      <p class="text azul-maisescurotexto">
-        Um protótipo de um aplicativo que resolve um problema da realidade de um grupo específico de pessoas.
+      <p class="k3 text azul-maisescurotexto">
+        {{descricao}}
       </p>
     </div>
-
-    <ul class="container">
-      {{#each projetos}}
-      <li class="item-list azul-maisescuro"> 
-        <div class="title-list">
-          <p>
-            <a class="title-list gelo-texto" href="projeto.html?key={{@key}}" >{{this.titulo}}</a>
-          </p>
-        </div>
-      </li> 
-      {{/each}}
-    </ul> 
-
-
   </main>
 </body>
 </html>

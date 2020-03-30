@@ -10,7 +10,4 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 
-
-
-
 // secao.html?key={{@key}}
