@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
   let params = coDesExtract()
   let value = params['key']
+  let value2 = document.querySelector('.batatinha')
+  value2.href = "projeto.html?cat="+value+"&pro={{@key}}"
+  console.log(value2)
   let db = coDesConnect('https://codes-daniel.firebaseio.com/')
   db.download('/', function(data) {
     
@@ -14,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('title', context)
     coDesReplace('.k1', context)
     coDesReplace('.container', context)
+
   })
 })
 
