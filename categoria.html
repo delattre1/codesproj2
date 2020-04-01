@@ -20,7 +20,7 @@
     <nav>
       <ul class="nav-cat-sup">
         {{#each portfolio}}
-          <li class = "nav-cat-opcoes text laranja"><a href="categoria.html?key={{@key}}" class="nav-link">{{@key}}</a></li>
+          <li class = "nav-cat-opcoes text laranja"><a href="categoria.html?key={{@key}}" class="nav-link">{{this.categoria}}</a></li>
         {{/each}}
       </ul>
     </nav>
@@ -44,7 +44,7 @@
     <ul class="container">
         {{#each projetos}}
         <li class="item-list azul-maisescuro"> 
-          <img src="assets/img/database.jpeg" alt="banco de dados" class="image-list">
+        <img src="assets/img/{{@key}}.jpg" alt="banco de dados" class="image-list">
           <div class="title-list">
             <p>
               <a class="batatinha title-list gelo-texto" href="projeto.html?cat={{categoria}}&pro={{@key}}" >{{this.titulo}}</a>

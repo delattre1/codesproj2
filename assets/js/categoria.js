@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let value = params['key']
   let value2 = document.querySelector('.batatinha')
   value2.href = "projeto.html?cat="+value+"&pro={{@key}}"
+  value2.src  = "assets/img/{{key}}.jpg"
   console.log(value2)
   let db = coDesConnect('https://entrega1codes.firebaseio.com/')
   db.download('/', function(data) {

@@ -22,7 +22,7 @@
     <nav>
       <ul class="nav-cat-sup">
         {{#each portfolio}}
-          <li class = "nav-cat-opcoes text laranja"><a href="categoria.html?key={{@key}}" class="nav-link">{{@key}}</a></li>
+          <li class = "nav-cat-opcoes text laranja"><a href="categoria.html?key={{@key}}" class="nav-link">{{this.categoria}}</a></li>
         {{/each}}
       </ul>
     </nav>
