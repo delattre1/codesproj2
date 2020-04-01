@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
   let proj = params['pro']
   let db = coDesConnect('https://entrega1codes.firebaseio.com/')
 
+  let imag = document.querySelector('.batato')
+  imag.src = "assets/img/"+proj+".jpg"
+  
   db.download('/', function(data) {
     context = data
     coDesReplace('.nav-cat-sup', context)
