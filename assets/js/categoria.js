@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let value2 = document.querySelector('.batatinha')
   value2.href = "projeto.html?cat="+value+"&pro={{@key}}"
   console.log(value2)
-  let db = coDesConnect('https://codes-daniel.firebaseio.com/')
+  let db = coDesConnect('https://entrega1codes.firebaseio.com/')
   db.download('/', function(data) {
     
     context = data
