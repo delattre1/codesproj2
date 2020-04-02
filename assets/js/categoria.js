@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log(context)
     coDesReplace('title', context)
     coDesReplace('.k1', context)
+    coDesReplace('.descricao',context)
     coDesReplace('.container', context)
 
   })
