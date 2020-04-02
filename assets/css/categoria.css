@@ -89,6 +89,7 @@
 .header {
  border-bottom: solid;
  border-color: #ff5722;
+
 }
 
 
@@ -181,12 +182,19 @@
 /* css categoria daniel timas vai até aqui  */
 
 @media (max-width: 68rem) {
+   .header {
+   display: flex;
+   width: 100%;
+   flex-direction: row;
+   align-items: center;
+ }
 
   .main-title-nav {
     text-align: center;
     font-family: 'Martel', serif;
     font-size: 1.5rem;
     padding: 1rem;
+    margin-left: 3.5rem;
   }
 
   .description-title {

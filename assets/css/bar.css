@@ -1,6 +1,6 @@
 .nav {
     transition: left 0.5s ease;
-    background: #007a7c;
+    background: #112d4e;
     font-size: 2rem;
     color: white;
     height: 100%;
@@ -14,7 +14,7 @@
   .nav.expanded { left: 0; }
   
   .nav ul {
-    position: absolute;
+    position: sticky;
     top: 30%;
     list-style: none;
     padding: 0;
@@ -26,9 +26,9 @@
     user-select: none;
     cursor: pointer;
     height: 2rem;
-    left: 2rem;
-    position: fixed;
-    top: 2rem;
+    left: 1.5rem;
+    position: sticky;
+    top: 2.25%;
     width: 3.6rem;
     z-index: 2;
   }
@@ -46,7 +46,7 @@
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    background: orangered;
+    background: #ff5722;
     content: '';
     height: 0.4rem;
     width: 100%;
@@ -63,7 +63,7 @@
 
   /* movimento das barrinhas do menu */
   .nav-toggle.expanded .nav-toggle-bar::after, .nav-toggle.expanded .nav-toggle-bar::before {
-    background: rgb(255, 187, 0);
+    background:#ff5722;
     margin-top: 0;
   }
 

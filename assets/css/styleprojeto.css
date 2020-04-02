@@ -18,16 +18,10 @@
 }
 
 .img-proj{
-  max-width: 40%;
+  width: 45%;
   height: auto;
 }
 
-.teste{
-  width: auto;
-  display: flex;
-  flex-direction: row;
-  max-height: 10%;
-}
 
 .materiais{
   display: flex;
@@ -37,18 +31,23 @@
   max-height: 10%;
 }
 
-.lista_materiais{
-  list-style-type: disc;
-  
+
+.teste{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  max-height: 10%;
 }
 
 
 .lateral-cantodir{
+  width: 10rem;
   display: flex;
   flex-direction: column;
   padding-left: 2rem;
   padding-right: 4rem;
-  max-height: 10%;
+  max-height: auto;
+  width: auto;
   
 }
 
@@ -59,7 +58,8 @@
 }
 
 .equipe{
-  width: 100%;
+  width: auto;
+
 }
 
 .equipe-nomes{
@@ -98,6 +98,7 @@
 
 .nome{
   margin-left: 1rem;
+  overflow: hidden;
 }
 
 .img-local{
@@ -109,26 +110,60 @@
   margin-left: 2.5rem;
 }
 
+.title-descricao{
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0.25rem;
+  font-family: 'Martel', serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 
 @media (max-width: 700px){
+  .header {
+   display: flex;
+   width: 100%;
+   flex-direction: row;
+   align-items: center;
+ }
+  .main-title-nav {
+    text-align: center;
+    font-family: 'Martel', serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-left: 3.5rem;
+  }
 
   .blocao{
     justify-content: space-between;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .lateral{
     display: flex;
     flex-direction: column;
     align-items: center;
+
   }
 
   .lateral-cantodir{
-    margin: 0;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
 
   .img-proj{
-    width: 100%;
+    width: 90%;
+    margin-bottom: 2rem;
+
+  }
+
+  .materiais{
+    padding-right: 0rem;
+    padding-left: 0rem;
+    max-height: 10%;
+    margin-bottom: 1rem;
   }
 
   .teste{
@@ -138,8 +173,8 @@
   }
 
   .img-equipe{
-    width: 2rem;
-    height: 2rem;
+    width: 10%;
+    height: 10%;
   }
 
   .title-materiais{
@@ -149,6 +184,7 @@
   .equipe-nomes{
     margin-bottom: 5%;
     max-width: 100%;
+    flex-wrap: nowrap;
   }
 
   .equipe-membros-1 .equipe-membros-2{
@@ -160,7 +196,7 @@
   .img-nome{
     display: flex;
     flex-direction: column;
-    vertical-align: center;
+    align-items: center;
     margin-bottom: 3%;
     justify-content: space-between;
     height: auto;
@@ -170,18 +206,23 @@
     width:40rem;
     height: auto;
     border-radius: 50%;
-    margin-left: 25%;
+    
   }
 
   .nome{
     margin-left: 0rem;
     margin-top: 0.5rem;
     width: 100%;
+
   }
 
   .descricao-proj{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 1.5rem
+  }
 
+  .title-descricao{
+    margin-left: 0rem;
   }
 }

@@ -16,20 +16,22 @@
 
 <body class="bgp gelo">
   <header class="header azul-maisescuro">
-    <h2 class="main-title-nav gelo-texto">
-      Portfólio de Janiel Soarez
-    </h2>
-
     <div class="nav-toggle">
       <div class="nav-toggle-bar"></div>
     </div>
     <nav class="nav">
       <ul class="nav-cat-sup">
         {{#each portfolio}}
-          <li class = "nav-cat-opcoes text laranja"><a href="categoria.html?key={{@key}}" class="">{{this.categoria}}</a></li>
+          <li class = "nav-cat-opcoes text laranja"><a href="categoria.html?key={{@key}}" class="nav-link">{{this.categoria}}</a></li>
         {{/each}}
       </ul>
     </nav>
+
+    <h2 class="main-title-nav gelo-texto">
+      Portfólio de Janiel Soarez
+    </h2>
+
+    
   </header>
 
   <main>
@@ -88,7 +90,6 @@
                 </div>
               </div>
             </div>
-          </div>
 
             <div class = "local">
               <div class="title-image">
@@ -102,12 +103,13 @@
               </p>
             </div>
           </div>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="descricao-proj">
-      <h2 class="title-descricao title azul-maisescurotexto">
+      <h2 class="title-descricao azul-maisescurotexto">
         Descrição
       </h2>
       <p class="k3 text azul-maisescurotexto">
