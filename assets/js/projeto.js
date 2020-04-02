@@ -12,11 +12,13 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.nav-cat-sup', context)
 
     context = data['portfolio'][value]['projetos'][proj]
-    console.log(context)
     coDesReplace('.k1', context)
     coDesReplace('.k2', context)
     coDesReplace('.k3', context)
     coDesReplace('.k4', context)
-
+    context = data['portfolio'][value]['projetos'][proj]
+    console.log(context)
+    coDesReplace('.k5',context)
+    coDesReplace('.k6', context)
   })
 })
