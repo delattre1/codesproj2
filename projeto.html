@@ -5,6 +5,7 @@
   <link href="assets/css/reset.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/styleprojeto.css" rel="stylesheet">
+  <link href="assets/css/bar.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Martel&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <script src="assets/js/codes.js"></script>
@@ -19,7 +20,10 @@
       Portfólio de Janiel Soarez
     </h2>
 
-    <nav>
+    <div class="nav-toggle">
+      <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="nav">
       <ul class="nav-cat-sup">
         {{#each portfolio}}
           <li class = "nav-cat-opcoes text laranja"><a href="categoria.html?key={{@key}}" class="nav-link">{{this.categoria}}</a></li>
@@ -27,6 +31,9 @@
       </ul>
     </nav>
   </header>
+
+>
+
 
   <main>
     <h1 class="k1 main-title laranjatexto">
@@ -114,5 +121,23 @@
       </p>
     </div>
   </main>
+  <script>
+    (function() {
+  
+      var hamburger = {
+        navToggle: document.querySelector('.nav-toggle'),
+        nav: document.querySelector('nav'),
+    
+        doToggle: function(e) {
+          e.preventDefault();
+          this.navToggle.classList.toggle('expanded');
+          this.nav.classList.toggle('expanded');
+        }
+      };
+    
+      hamburger.navToggle.addEventListener('click', function(e) { hamburger.doToggle(e); });
+      hamburger.nav.addEventListener('click', function(e) { hamburger.doToggle(e); });
+    }());
+  </script>
 </body>
 </html>
